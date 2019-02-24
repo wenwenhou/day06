@@ -1,0 +1,8 @@
+u=open("d://ufo.txt","w")
+u.write("hello ufo")
+u.close()
+f=open("d://ufo.txt","r")
+o=f.read()
+n=open("d://ufotab.txt","w")
+n.write(o)
+print(n)

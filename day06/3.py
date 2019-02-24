@@ -1,0 +1,8 @@
+f=open("d://ae.txt","w")
+f.write("ni hao")
+f.close()
+e=open("d://ae.txt","r")
+c=e.read()
+b=open("d://af.txt","w")
+b.write(c)
+print(b)
